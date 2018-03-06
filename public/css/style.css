@@ -290,7 +290,7 @@ body {
 .project-template-header{
   border-bottom: 1px solid grey;
   height: 50px;
-  background: #FFF;
+  background: #f7f7f7;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -420,15 +420,27 @@ body {
 
 /* Contact CSS */
 .contact-main {
-  height: 100vh;
-  background-color: #f7f7f7;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  background-color: #C3E2D2;
+  padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: red; */
 }
 .contact-section {
-  height: 80%;
+  height: 100%;
+  width: 100%;
   background-color: none;
 }
 .contact-img {
@@ -466,11 +478,45 @@ body {
   font-size: 16px;
   color: white;
   font-weight: 500;
+  margin-bottom: 50px;
 }
 .contact-button:hover{
   opacity: 0.9;
   background-color: #27c3f7;
 
+}
+.form-container{
+  width: 70%;
+  margin: 0 auto;
+  background-color: none;
+}
+@media screen and (max-width: 600px){
+  .form-container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: none;
+  }
+  .contact-heading {
+    color: #4c4c4c;
+    padding: 6px;
+    font-size: 35px;
+    font-weight: 200;
+  }
+  .contact-title {
+    padding: 6spx;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .contact-description {
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .contact-heading-strong{
+    color: #4c4c4c;
+    font-size: 35px;
+    font-weight: 800;
+  }
 }
 /* Contact CSS */
 
@@ -522,11 +568,11 @@ body {
   height:68vh;
   width: 90%;
   border: 1px solid #efefef;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 .about-header{
   height: 15%;
-  border-radius: 15px 15px 0px 0px;
+  /* border-radius: 15px 15px 0px 0px; */
   border-bottom: 2px solid lightblue;
   display: flex;
   justify-content: flex-start;
@@ -594,7 +640,6 @@ body {
     height:68vh;
     width: 90%;
     border: 1px solid #efefef;
-    border-radius: 15px;
     margin-bottom: 5%;
   }
 }
@@ -662,7 +707,7 @@ body {
     padding-top: 28px;
   }
   .chalkboard-text{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     color: #FFF;
     font-family: 'Coming Soon', cursive;
