@@ -228,7 +228,7 @@ body {
 /* Portfolio CSS */
 .portfolio-main {
   background-color: #C3E2D2;
-  padding: 2.25em 1.6875em;
+  padding: 2em 1.5em;
   background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
   background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
   background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
@@ -282,11 +282,23 @@ body {
   height: 350px;
   width: 100%;
   margin-top: 20px;
+  position: relative;
 }
-.project-template:hover{
-  opacity: 0.8;
-  transform: scale(1.05);
+.project-template-hover {
+  position: absolute;
+  bottom: 1px;
+  left: 15px;
+  border: 1px solid none;
+  height: 300px;
+  width: calc(100% - 30px);;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #FFF;
+  z-index: 10;
+  display: none;
+
 }
+
 .project-template-header{
   border-bottom: 1px solid grey;
   height: 50px;
@@ -746,5 +758,12 @@ body {
   margin: 15px;
   color: white;
   font-size: 18px;
-  font-weight: 400;
+  font-family: Raleway, sans-serif;
+  font-weight: 200;
+
+}
+.footerLinks a:hover{
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
 }
