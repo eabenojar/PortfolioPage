@@ -6,8 +6,9 @@ body {
   min-width: 100%;
   z-index: -3;
   overflow-x: hidden;
-
-
+}
+ul {
+  list-style-type: none;
 }
 .container-fluid {
   padding-bottom:100px;
@@ -276,6 +277,59 @@ body {
 #green{
   background-color: green;
 }
+/* PROJECT SECTION */
+.app-title {
+  font-size: 28px;
+  font-weight: 300;
+  font-family: sans-serif;
+  text-align: left;
+}
+.app-description {
+  font-size: 14px;
+  font-weight: 200;
+  font-family: sans-serif;
+  text-align: left;
+  margin: 0;
+}
+.builtList {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  line-height: 36px;
+
+}
+.builtList li {
+
+  width: 50%;
+  font-size: 12px;
+  display: inline;
+  background-color: #A4CBA5;
+  border-radius: 5px;
+  padding: 6px;
+  margin: 5px 5px 5px 0;
+}
+.app-built-title {
+  text-align: left;
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+}
+.app-button {
+  margin: 0;
+  background-color: #5DA2E2;
+  border: 1px solid transparent;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  width: 200px;
+  color: #282828;
+}
+.app-button:hover {
+  background-color: #8AB7E0;
+}
 .project-template{
   border: 1px solid none;
   border-radius: 5px;
@@ -296,7 +350,6 @@ body {
   background-color: #FFF;
   z-index: 10;
   display: none;
-
 }
 
 .project-template-header{

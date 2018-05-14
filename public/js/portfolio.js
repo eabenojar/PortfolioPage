@@ -38,17 +38,16 @@ $("#contact-footer").click(function() {
 //HIDE AND SHOW PROJECTS
 // $('#travelDesignHover').hide();
 $('#travelDesign, #travelDesignHover').mouseenter(function(){
-  console.log("MOUSE ENTERED");
   $('#travelDesignHover').toggle();
 }).mouseleave(function(){
   $('#travelDesignHover').hide();
 });
 
-$('.project-template, .project-template-hover').mouseenter(function(){
-  console.log("MOUSE ENTERED");
-  $('#travelDesignHover').toggle();
+//TESLA CLONE SECTION
+$('#teslaClone, #teslaCloneHover').mouseenter(function(){
+  $('#teslaCloneHover').toggle();
 }).mouseleave(function(){
-  $('#travelDesignHover').hide();
+  $('#teslaCloneHover').hide();
 });
 
 
