@@ -912,13 +912,14 @@ ul {
 }
 .computer-screen {
   height: 100%;
+  padding-top: 20px;
   width: 100%;
 }
 .computer-screen-top {
   height: 80%;
   width: 100%;
   background-color: #E8E8E8;
-  border: 1px solid lightgrey;
+  /* border: 1px solid lightgrey; */
   display: flex;
   border-radius: 5px;
   justify-content: center;
@@ -929,6 +930,10 @@ ul {
   height: 100%;
   width: 100%;
   background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .computer-screen-bottom {
   height: 20%;
@@ -964,10 +969,10 @@ ul {
   align-items: flex-end;
 }
 .computer-speaker-box {
-  height: 60%;
-  width: 100%;
+  height: 120px;
+  width: 80px;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   background-color: #1E1E1E;
   border-radius: 5px;
   display: flex;
@@ -976,9 +981,9 @@ ul {
   padding-top: 20px;
 }
 .computer-speaker-speakers {
-  height: 75px;
-  width: 75px;
-  border-radius: 75px;
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
   background-color: lightgrey;
   border: 8px solid #585858;
   display: flex;
@@ -990,4 +995,10 @@ ul {
   width: 20px;
   border-radius: 20px;
   background-color: #585858;
+}
+.social-media-description {
+  margin-bottom: 10px;
+}
+#social-icons:hover {
+  padding-bottom: 10px; 
 }

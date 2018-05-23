@@ -13,7 +13,7 @@ $("#portfolio").click(function() {
 });
 $("#contact").click(function() {
     $('html,body').animate({
-        scrollTop: $(".contact-heading").offset().top},
+        scrollTop: $(".contact-section").offset().top},
         'slow');
 });
 $("#about-footer").click(function() {
