@@ -50,6 +50,12 @@ $('#teslaClone, #teslaCloneHover').mouseenter(function(){
   $('#teslaCloneHover').hide();
 });
 
+$('#fccJsApp, #fccJsAppHover').mouseenter(function(){
+  $('#fccJsAppHover').toggle();
+}).mouseleave(function(){
+  $('#fccJsAppHover').hide();
+});
+
 
 
 
