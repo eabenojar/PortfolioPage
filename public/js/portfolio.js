@@ -56,6 +56,12 @@ $('#fccJsApp, #fccJsAppHover').mouseenter(function(){
   $('#fccJsAppHover').hide();
 });
 
+$('#tripPlanner, #tripPlannerHover').mouseenter(function(){
+  $('#tripPlannerHover').toggle();
+}).mouseleave(function(){
+  $('#tripPlannerHover').hide();
+});
+
 
 
 
