@@ -29,5 +29,6 @@ app.get("/contact", function(req,res){
   res.render("contact")
 });
 
+var port = process.env.PORT || 8080;
 
-app.listen(4000, console.log("APP STARTED! on port 4000"))
+app.listen(port, console.log("APP STARTED! on port" + port))
