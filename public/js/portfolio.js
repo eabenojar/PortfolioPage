@@ -62,6 +62,12 @@ $('#tripPlanner, #tripPlannerHover').mouseenter(function(){
   $('#tripPlannerHover').hide();
 });
 
+$('#belowTheSurface, #belowTheSurfaceHover').mouseenter(function(){
+  $('#belowTheSurfaceHover').toggle();
+}).mouseleave(function(){
+  $('#belowTheSurfaceHover').hide();
+});
+
 
 
 
