@@ -326,6 +326,23 @@ ul {
   font-weight: 400;
   width: 200px;
   color: #282828;
+  display: inline;
+}
+.app-button-two {
+  margin: 0;
+  background-color: #FF6767;
+  border: 1px solid transparent;
+  bottom: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  width: 200px;
+  color: #282828;
+  display: inline;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
 }
 .app-button:hover {
   background-color: #8AB7E0;
