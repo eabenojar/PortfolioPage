@@ -68,6 +68,12 @@ $('#belowTheSurface, #belowTheSurfaceHover').mouseenter(function(){
   $('#belowTheSurfaceHover').hide();
 });
 
+$('#coinmarket, #coinmarketHover').mouseenter(function(){
+  $('#coinmarketHover').toggle();
+}).mouseleave(function(){
+  $('#coinmarketHover').hide();
+});
+
 
 
 
