@@ -32,3 +32,23 @@ app.get("/contact", function(req,res){
 var port = process.env.PORT || 8080;
 
 app.listen(port, console.log("APP STARTED! on port" + port))
+
+const ADD = 'ADD';
+
+function addMessage(){
+    return {
+        type: ADD,
+        message: 'HEllo'
+    }
+}
+
+function messageReducer(state =[],action){
+    switch(action.type){
+        case ADD:
+        return {
+            ...state, message: action.message
+        }
+    }
+}
+
+store.dispatch(addMessage())
