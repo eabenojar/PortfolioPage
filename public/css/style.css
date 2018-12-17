@@ -1,6 +1,11 @@
 body {
   /* background: rgb(7, 167, 182); */
-  background: linear-gradient(135deg, rgb(7, 167, 182), rgb(233, 177, 184));
+  background: linear-gradient(
+    135deg,
+    rgb(7, 167, 182),
+    rgb(233, 177, 184),
+    rgb(7, 167, 182)
+  );
   margin: 0;
   padding: 0;
   position: relative;
@@ -18,42 +23,8 @@ ul {
   text-align: center;
   margin: 0 auto;
   min-height: 100%;
-  /* position:relative; */
-  /* background-color: #c3e2d2; */
   /* background: linear-gradient(135deg, rgb(7, 167, 182), rgb(233, 177, 184)); */
-
-  padding: 2.25em 1.6875em;
-  background-image: -webkit-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  background-image: -moz-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  background-image: -ms-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  background-image: repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
-  -webkit-background-size: 3px 3px;
-  -moz-background-size: 3px 3px;
-  background-size: 3px 3px;
+  /* padding: 2.25em 1.6875em; */
   overflow-y: hidden;
   /* margin-left: -15px !important; */
   /* margin-right: -15px !important; */
@@ -130,15 +101,7 @@ ul {
 }
 .row1 {
   height: 100vh;
-  background: linear-gradient(135deg, rgb(7, 167, 182), rgb(233, 177, 184));
   padding: 2.25em 1.6875em;
-  background-image: -webkit-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
   background-image: -moz-repeating-radial-gradient(
     center center,
     rgba(0, 0, 0, 0.2),
@@ -160,12 +123,9 @@ ul {
     transparent 1px,
     transparent 100%
   );
-  -webkit-background-size: 3px 3px;
+  /* -webkit-background-size: 3px 3px; */
   -moz-background-size: 3px 3px;
-  background-size: 3px 3px;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
+  /* background-size: 3px 3px; */
   overflow: hidden;
   /* position: relative; */
   /* text-align: center; */
@@ -315,15 +275,8 @@ ul {
 
 /* Portfolio CSS */
 .portfolio-main {
-  /* background-color: #c3e2d2; */
   padding: 2em 1.5em;
-  background-image: -webkit-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
+  /* background-image: -webkit-repeating-radial-gradient( center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100% ); */
   background-image: -moz-repeating-radial-gradient(
     center center,
     rgba(0, 0, 0, 0.2),
@@ -345,9 +298,9 @@ ul {
     transparent 1px,
     transparent 100%
   );
-  -webkit-background-size: 3px 3px;
+  /* -webkit-background-size: 3px 3px; */
   -moz-background-size: 3px 3px;
-  background-size: 3px 3px;
+  /* background-size: 3px 3px; */
   min-height: 120vh;
   height: auto;
   width: 100%;
@@ -614,13 +567,7 @@ ul {
   width: 100%;
   /* background-color: #c3e2d2; */
   padding: 2.25em 1.6875em;
-  background-image: -webkit-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
+  /* background-image: -webkit-repeating-radial-gradient( center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100% ); */
   background-image: -moz-repeating-radial-gradient(
     center center,
     rgba(0, 0, 0, 0.2),
@@ -642,14 +589,13 @@ ul {
     transparent 1px,
     transparent 100%
   );
-  -webkit-background-size: 3px 3px;
+  /* -webkit-background-size: 3px 3px; */
   -moz-background-size: 3px 3px;
-  background-size: 3px 3px;
+  /* background-size: 3px 3px; */
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: red; */
 }
 .contact-section {
   height: 100%;
@@ -772,13 +718,7 @@ ul {
   height: auto;
   /* background-color: #c3e2d2; */
   padding: 2.25em 1.6875em;
-  background-image: -webkit-repeating-radial-gradient(
-    center center,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 1px,
-    transparent 1px,
-    transparent 100%
-  );
+  /* background-image: -webkit-repeating-radial-gradient( center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100% ); */
   background-image: -moz-repeating-radial-gradient(
     center center,
     rgba(0, 0, 0, 0.2),
@@ -800,9 +740,9 @@ ul {
     transparent 1px,
     transparent 100%
   );
-  -webkit-background-size: 3px 3px;
+  /* -webkit-background-size: 3px 3px; */
   -moz-background-size: 3px 3px;
-  background-size: 3px 3px;
+  /* background-size: 3px 3px; */
   width: 100%;
   display: flex;
   justify-content: center;
