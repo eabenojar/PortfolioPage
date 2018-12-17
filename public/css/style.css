@@ -1,5 +1,6 @@
 body {
-  background-color: red;
+  /* background: rgb(7, 167, 182); */
+  background: linear-gradient(135deg, rgb(7, 167, 182), rgb(233, 177, 184));
   margin: 0;
   padding: 0;
   position: relative;
@@ -18,7 +19,9 @@ ul {
   margin: 0 auto;
   min-height: 100%;
   /* position:relative; */
-  background-color: #c3e2d2;
+  /* background-color: #c3e2d2; */
+  /* background: linear-gradient(135deg, rgb(7, 167, 182), rgb(233, 177, 184)); */
+
   padding: 2.25em 1.6875em;
   background-image: -webkit-repeating-radial-gradient(
     center center,
@@ -57,6 +60,34 @@ ul {
 }
 .container {
   overflow-x: hidden;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -moz-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: -ms-repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-image: repeating-radial-gradient(
+    center center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
 }
 .row {
   overflow-x: hidden;
@@ -98,8 +129,8 @@ ul {
   color: #595959;
 }
 .row1 {
-  height: 90vh;
-  background-color: #c3e2d2;
+  height: 100vh;
+  background: linear-gradient(135deg, rgb(7, 167, 182), rgb(233, 177, 184));
   padding: 2.25em 1.6875em;
   background-image: -webkit-repeating-radial-gradient(
     center center,
@@ -142,9 +173,17 @@ ul {
   z-index: -1;
   font-size: 20px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+.row .row1-main {
+  height: 90%;
+  /* background-color: red; */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .row1-title {
   z-index: 1;
@@ -167,7 +206,7 @@ ul {
 }
 .row1-job-title {
   z-index: 1;
-  color: #5ea57e;
+  color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 2.5em;
   font-weight: 500;
@@ -276,7 +315,7 @@ ul {
 
 /* Portfolio CSS */
 .portfolio-main {
-  background-color: #c3e2d2;
+  /* background-color: #c3e2d2; */
   padding: 2em 1.5em;
   background-image: -webkit-repeating-radial-gradient(
     center center,
@@ -312,7 +351,6 @@ ul {
   min-height: 120vh;
   height: auto;
   width: 100%;
-  margin-bottom: 100px;
   overflow-y: hidden;
 }
 
@@ -574,7 +612,7 @@ ul {
   min-height: 100vh;
   height: auto;
   width: 100%;
-  background-color: #c3e2d2;
+  /* background-color: #c3e2d2; */
   padding: 2.25em 1.6875em;
   background-image: -webkit-repeating-radial-gradient(
     center center,
@@ -694,6 +732,37 @@ ul {
   .social-media-description {
     font-size: 10px;
   }
+  .app-button {
+    margin: 0;
+    background-color: #5da2e2;
+    border: 1px solid transparent;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 400;
+    width: 125px;
+    color: #282828;
+  }
+  .app-button-two {
+    margin: 0;
+    background-color: #ff6767;
+    border: 1px solid transparent;
+    bottom: 15px;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 400;
+    width: 125px;
+
+    color: #282828;
+    display: inline;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 /* Contact CSS */
 
@@ -701,7 +770,7 @@ ul {
 .about-main {
   min-height: 90vh;
   height: auto;
-  background-color: #c3e2d2;
+  /* background-color: #c3e2d2; */
   padding: 2.25em 1.6875em;
   background-image: -webkit-repeating-radial-gradient(
     center center,
@@ -747,9 +816,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  margin: 3%;
-  background-color: none;
+  height: 10%;
   overflow: hidden;
   text-align: center;
 }
@@ -1089,70 +1156,145 @@ ul {
     padding-top: 23px;
   }
 }
-@media screen and (max-width: 700px) {
-  .about-container-header {
-    background-color: #ffffff;
-    height: 68vh;
-    width: 100%;
-    border: 1px solid #efefef;
-    /* border-radius: 15px; */
-  }
-}
-@media screen and (max-width: 600px) {
-  .about-header-title {
-    font-size: 30px;
-    font-weight: 600;
-    margin-left: 20px;
-  }
-  .about-description {
-    font-size: 14px;
-    font-weight: 200;
-    padding-top: 24px;
-  }
-  .container-fluid {
-    overflow-x: hidden;
-    width: 100vw;
-  }
-  .chalkboard-text {
-    font-size: 24px;
+
+@media screen and (max-width: 800px) {
+  .app-button {
+    margin: 0;
+    background-color: #5da2e2;
+    border: 1px solid transparent;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 10px;
     font-weight: 400;
-    color: #fff;
-    font-family: "Coming Soon", cursive;
+    width: 125px;
+    color: #282828;
+    display: inline;
   }
-  .about-container-header {
-    background-color: #ffffff;
-    height: 68vh;
-    width: 100%;
-    border: 1px solid #efefef;
-    /* border-radius: 15px; */
-  }
-  #social-icons {
-    padding-bottom: 10px;
-    height: 45px;
-    width: 45px;
-    margin: 0px;
-  }
-  .social-board-description {
-    font-family: Coming Soon, sans-serif;
-    text-align: justify;
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 475px) {
-  .about-header-title {
-    font-size: 30px;
-    font-weight: 600;
-    margin-left: 20px;
-  }
-  .about-description {
-    font-size: 11px;
-    font-weight: 200;
-    padding-top: 28px;
-  }
-  .chalkboard-text {
-    font-size: 14px;
+  .app-button-two {
+    margin: 0;
+    background-color: #ff6767;
+    border: 1px solid transparent;
+    bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 10px;
     font-weight: 400;
-    color: #fff;
-    font-family: "Coming Soon", cursive;
+    width: 125px;
+
+    color: #282828;
+    display: inline;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }
+  @media screen and (max-width: 700px) {
+    .about-container-header {
+      background-color: #ffffff;
+      height: 68vh;
+      width: 100%;
+      border: 1px solid #efefef;
+      /* border-radius: 15px; */
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .about-header-title {
+      font-size: 30px;
+      font-weight: 600;
+      margin-left: 20px;
+    }
+    .about-description {
+      font-size: 14px;
+      font-weight: 200;
+      padding-top: 24px;
+    }
+    .container-fluid {
+      overflow-x: hidden;
+      width: 100vw;
+    }
+    .chalkboard-text {
+      font-size: 24px;
+      font-weight: 400;
+      color: #fff;
+      font-family: "Coming Soon", cursive;
+    }
+    .about-container-header {
+      background-color: #ffffff;
+      height: 68vh;
+      width: 100%;
+      border: 1px solid #efefef;
+      /* border-radius: 15px; */
+    }
+    #social-icons {
+      padding-bottom: 10px;
+      height: 45px;
+      width: 45px;
+      margin: 0px;
+    }
+    .social-board-description {
+      font-family: Coming Soon, sans-serif;
+      text-align: justify;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 475px) {
+    .about-header-title {
+      font-size: 30px;
+      font-weight: 600;
+      margin-left: 20px;
+    }
+    .about-description {
+      font-size: 11px;
+      font-weight: 200;
+      padding-top: 28px;
+    }
+    .chalkboard-text {
+      font-size: 14px;
+      font-weight: 400;
+      color: #fff;
+      font-family: "Coming Soon", cursive;
+    }
+    .app-button {
+      margin: 0;
+      background-color: #5da2e2;
+      border: 1px solid transparent;
+      position: absolute;
+      left: 15px;
+      bottom: 15px;
+      padding: 8px;
+      border-radius: 5px;
+      font-size: 10px;
+      font-weight: 400;
+      width: 100px;
+      color: #282828;
+      display: inline;
+    }
+    .app-button-two {
+      margin: 0;
+      background-color: #ff6767;
+      border: 1px solid transparent;
+      bottom: 15px;
+      padding: 8px;
+      border-radius: 5px;
+      font-size: 10px;
+      font-weight: 400;
+      width: 100px;
+
+      color: #282828;
+      display: inline;
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .app-built-title {
+      display: none;
+    }
+    .builtList {
+      display: none;
+    }
   }
 }
