@@ -137,7 +137,7 @@ ul {
   align-items: center;
 }
 .row .row1-main {
-  height: 90%;
+  height: 95%;
   /* background-color: red; */
   width: 100vw;
   display: flex;
@@ -756,7 +756,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10%;
+  height: 5%;
   overflow: hidden;
   text-align: center;
 }
