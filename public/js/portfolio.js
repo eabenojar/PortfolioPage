@@ -17,9 +17,7 @@ $("#contact").click(function() {
         'slow');
 });
 $("#about-footer").click(function() {
-    console.log(
-      "clicked"
-    )
+   
     $('html,body').animate({
         scrollTop: $(".about-main").offset().top},
         'slow');

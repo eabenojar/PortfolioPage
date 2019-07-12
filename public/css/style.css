@@ -138,7 +138,6 @@ ul {
 }
 .row .row1-main {
   height: 95%;
-  /* background-color: red; */
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -564,7 +563,7 @@ ul {
 .contact-main {
   min-height: 100vh;
   height: auto;
-  width: 100%;
+  width: 100vw;
   /* background-color: #c3e2d2; */
   padding: 2.25em 1.6875em;
   /* background-image: -webkit-repeating-radial-gradient( center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100% ); */
@@ -600,7 +599,7 @@ ul {
 .contact-section {
   height: 100%;
   width: 100%;
-  background-color: none;
+  background-color: transparent;
 }
 .contact-img {
   height: 250px;
@@ -921,7 +920,6 @@ ul {
 .social-row3-desk {
   height: 100%;
   width: 100%;
-  /* background-color: yellow; */
 }
 .desk-top {
   width: 100%;
